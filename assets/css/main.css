@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #5c5656;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #fefcfc;
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #e7e2e2;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1785,12 +1785,12 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #8067e0;
+		color: #d9d0ff;
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #cfcfcf;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -1902,7 +1902,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #888;
+			color: #fdfdfd;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2236,7 +2236,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #f4f4f4;
+				border-top: solid 2px #958c8c;
 				padding: 0.5em 0;
 			}
 
@@ -2463,7 +2463,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #777;
+			color: #f4f4f4;
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2475,7 +2475,7 @@ input, select, textarea {
 		}
 
 		table tfoot {
-			border-top: solid 4px #e4e4e4;
+			border-top: solid 4px #bfbfbf;
 		}
 
 		table.alt {
@@ -2653,7 +2653,7 @@ input, select, textarea {
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
+		border-top: solid 3px #9a9a9a;
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2818,14 +2818,14 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
+		background: #777272;
 		padding-right: 23em;
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #888080;
 	}
 
 		#main > section > .container {
@@ -2839,9 +2839,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: #706a7b;
 		border-top: 0;
-		color: #c0c0c0;
+		color: #ffffff;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
