@@ -17,6 +17,10 @@ html {
   object-position: center;
 }
 
+emphcol {
+  color: red;
+}
+
 main {
   padding:1%;
   margin-left:10%;
