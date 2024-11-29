@@ -5,40 +5,72 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="test/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.png" alt="" /></span>
-					<h1 id="logo"><a href="#">Matt</a></h1>
-					<p>I'm a programmer, I like coding.<br />
-					Thought this would be cool.</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About this Project</a></li>
-						<li><a href="#two">Introduction</a></li>
-						<li><a href="#three">The Early Years</a></li>
-						<li><a href="#four">Textile Mills of New England</a></li>
-						<li><a href="#five">The Lowell Mill Girls</a></li>
-						<li><a href="#six">Working Conditions & Labor Movements</a></li>
-						<li><a href="#seven">Tech & Innovation in the Mills</a></li>
-						<li><a href="#eight">Social & Economic Impacts</a></li>
-						<li><a href="#nine">Primary Source Gallery</a></li>
-						<li><a href="#ten">Works Cited</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://facebook.com/anfmatt" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="https://instagram.com/a1ko.af" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://github.com/aikoaf" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto:magbym@nwfsc.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+		<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+			<symbol id="facebook" viewBox="-794 -794 2100 2100"><path d="M93.198-660.547C173.13-736.66 286.83-762.367 394.08-765.57c113.433-1.022 226.82-.404 340.252-.36.446 119.663.486 239.37-.044 359.026-73.307-.13-146.665.18-219.97-.13-46.48-2.895-94.22 32.34-102.67 78.42-1.11 80.07-.397 160.184-.357 240.254 107.52.442 215.037-.133 322.55.27-7.87 115.83-22.242 231.135-39.097 345.988-94.97.89-189.99-.09-284.96.492-.844 341.63.447 683.26-.664 1024.892-141.06.578-282.205-.267-423.262.4-2.672-341.677.22-683.525-1.466-1025.246-68.82-.717-137.677.493-206.49-.58.26-114.853.088-229.704.128-344.518 68.768-.843 137.586.177 206.362-.488 2.088-111.656-2.095-223.443 2.18-335.004 6.894-88.354 40.567-177.365 106.626-238.393z"/></symbol>
+			<symbol id="twitter" viewBox="0 0 300.00006 244.18703"><path d="M94.72 243.18c112.46 0 173.96-93.168 173.96-173.96 0-2.646-.054-5.28-.173-7.903 11.938-8.63 22.314-19.4 30.498-31.66-10.955 4.87-22.744 8.147-35.11 9.625 12.622-7.57 22.313-19.543 26.885-33.817-11.813 7.004-24.895 12.093-38.824 14.84C240.8 8.423 224.916.99 207.326.99c-33.763 0-61.143 27.38-61.143 61.13 0 4.8.537 9.466 1.586 13.942-50.816-2.556-95.875-26.886-126.03-63.88-5.252 9.036-8.28 19.53-8.28 30.73 0 21.212 10.794 39.938 27.208 50.893-10.03-.31-19.454-3.063-27.69-7.646-.01.255-.01.505-.01.78 0 29.61 21.076 54.33 49.052 59.933-5.137 1.4-10.543 2.152-16.122 2.152-3.933 0-7.766-.387-11.49-1.103 7.783 24.293 30.354 41.97 57.114 42.465-20.926 16.402-47.287 26.17-75.937 26.17-4.93 0-9.798-.28-14.584-.845 27.06 17.344 59.19 27.464 93.723 27.464"/></symbol>
+			<symbol id="pinterest" viewBox="0 0 32 32"><path d="M15.996.007C7.162.007 0 7.167 0 16.004c0 6.55 3.938 12.177 9.575 14.65-.045-1.118-.008-2.46.278-3.672.308-1.3 2.058-8.72 2.058-8.72s-.51-1.02-.51-2.528c0-2.37 1.375-4.14 3.086-4.14 1.454 0 2.157 1.09 2.157 2.4 0 1.462-.934 3.65-1.412 5.676-.4 1.696.853 3.08 2.523 3.08 3.03 0 5.072-3.89 5.072-8.504 0-3.505-2.36-6.128-6.655-6.128-4.852 0-7.874 3.617-7.874 7.66 0 1.393.41 2.376 1.054 3.137.297.35.338.49.23.89-.075.297-.25 1.004-.325 1.284-.107.406-.434.55-.8.4-2.236-.91-3.276-3.36-3.276-6.11 0-4.544 3.83-9.994 11.432-9.994 6.106 0 10.128 4.42 10.128 9.164 0 6.275-3.49 10.963-8.633 10.963-1.728 0-3.353-.934-3.907-1.992 0 0-.93 3.687-1.125 4.397-.34 1.23-1.004 2.466-1.61 3.427 1.436.425 2.956.656 4.53.656 8.835 0 15.996-7.16 15.996-15.996S24.83.007 15.997.007z"/></symbol>
+			<symbol id="instagram" viewBox="0 0 512 512"><path d="M256 49.47c67.266 0 75.233.258 101.8 1.47 24.562 1.12 37.9 5.224 46.778 8.674a78.052 78.052 0 0 1 28.966 18.845 78.052 78.052 0 0 1 18.845 28.965c3.45 8.877 7.553 22.216 8.673 46.778 1.212 26.565 1.47 34.532 1.47 101.8s-.258 75.233-1.47 101.8c-1.12 24.562-5.225 37.9-8.674 46.778a83.427 83.427 0 0 1-47.812 47.812c-8.877 3.45-22.216 7.554-46.778 8.674-26.56 1.212-34.527 1.47-101.8 1.47s-75.237-.258-101.8-1.47c-24.562-1.12-37.9-5.225-46.778-8.674a78.05 78.05 0 0 1-28.966-18.845A78.053 78.053 0 0 1 59.61 404.58c-3.45-8.876-7.553-22.215-8.673-46.777-1.212-26.564-1.47-34.532-1.47-101.8s.258-75.233 1.47-101.8c1.12-24.562 5.224-37.9 8.674-46.778A78.052 78.052 0 0 1 78.46 78.458a78.053 78.053 0 0 1 28.966-18.845c8.877-3.45 22.216-7.554 46.778-8.674 26.565-1.213 34.532-1.47 101.8-1.47m0-45.39c-68.418 0-77 .29-103.866 1.515-26.815 1.224-45.127 5.482-61.15 11.71a123.488 123.488 0 0 0-44.62 29.057A123.488 123.488 0 0 0 17.3 90.982c-6.223 16.025-10.48 34.337-11.7 61.152C4.37 179 4.08 187.582 4.08 256s.29 77 1.52 103.866c1.224 26.815 5.482 45.127 11.71 61.15a123.49 123.49 0 0 0 29.057 44.62 123.486 123.486 0 0 0 44.62 29.058c16.025 6.228 34.337 10.486 61.15 11.71 26.87 1.226 35.45 1.516 103.867 1.516s77-.29 103.866-1.516c26.815-1.224 45.127-5.482 61.15-11.71a128.817 128.817 0 0 0 73.678-73.677c6.228-16.025 10.486-34.337 11.71-61.15 1.226-26.87 1.516-35.45 1.516-103.867s-.29-77-1.516-103.866c-1.224-26.815-5.482-45.127-11.71-61.15a123.486 123.486 0 0 0-29.057-44.62A123.487 123.487 0 0 0 421.02 17.3c-16.025-6.223-34.337-10.48-61.152-11.7C333 4.37 324.418 4.08 256 4.08z"/><path d="M256 126.635A129.365 129.365 0 1 0 385.365 256 129.365 129.365 0 0 0 256 126.635zm0 213.338A83.973 83.973 0 1 1 339.974 256 83.974 83.974 0 0 1 256 339.973z"/><circle cx="390.476" cy="121.524" r="30.23"/></symbol> 
+		  </svg>
+		  
+		  <nav class="Navbar">
+			<a id="toggle" class="Toggle Navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse"><span></span></a>
+			
+			<a class="Navbar-brand u-pullRight" href="#link">Ultralinx</a>
+			
+			<div id="navbarCollapse" class="Navbar-menu">
+			  <ul class="Navbar-menu-major">
+				<li><a href="#link">Gear</a></li>
+				<li><a href="#link">Music</a></li>
+				<li><a href="#link">Travel</a></li>
+				<li><a href="#link">Photography</a></li>
+			  </ul>
+			  <div class="Navbar-menu-minor">
+				<ul>
+				  <li><a href="#link">Store</a></li>
+				  <li><a href="#link">Deals</a></li>
+				  <li><a href="#link">Themes</a></li>
+				</ul>
+				<ul>
+				  <li><a href="#link">About</a></li>
+				  <li><a href="#link">Advertising</a></li>
+				  <li><a href="#link">Privacy Policy</a></li>
+				  <li><a href="#link">Contact</a></li>
+				</ul>
+				<ul class="Navbar-menu-social u-Navbar-hidden@sm-up">  
+				  <li>
+					<a class="SocialLink" href="#link">
+					  <svg class="SocialLink-icon"><use xlink:href="#facebook" /></svg>
+					  <span class="SocialLink-text">Facebook</span>
+					</a>
+				  </li>
+				  <li>
+					<a class="SocialLink" href="#link">
+					  <svg class="SocialLink-icon"><use xlink:href="#twitter" /></svg>
+					  <span class="SocialLink-text">Twitter</span>
+					</a>
+				  </li>
+				  <li>
+					<a class="SocialLink" href="#link">
+					  <svg class="SocialLink-icon"><use xlink:href="#instagram" /></svg>
+					  <span class="SocialLink-text">Instagram</span>
+					</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+			  
+			<ul class="Navbar-quickLinks">  
+			  <li><a href="#link">Facebook</a></li>
+			  <li><a href="#link">Twitter</a></li>
+			  <li><a href="#link">Instagram</a></li>
+			</ul>
+		  </nav>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -549,6 +581,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://codepen.io/sonjastrieder/pen/mREKXx/56a60d968903c65fa7983f3e6877510e.js'></script><script  src="test/script.js"></script>
 
 	</body>
 </html>
