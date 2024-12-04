@@ -95,14 +95,17 @@ a {
   box-sizing: inherit;
 }
 ```
-Anything before a `{` is the element declaration. CSS has a bunch of different rules and options so you can pretty much have a website look like anything you want it to (if you have the time and patience to deal with it). 
+Anything before a `{` is the element declaration. CSS has a bunch of different rules and options, so you can pretty much have a website that looks like anything you want it to (if you have the time and patience to deal with it). 
 
-*As an example, `emphcol` you can see that it doesn't have a color, this is because it isn't a real element. But it is what I use to add an emphasis or note. At the top of the main page has the note `For Professor Brinton`, the `emphcol` element is what I use to make it red, selectively only for that small portion of text.*
+*As an example, `emphcol` you can see that it doesn't have a color, this is because it isn't a real element. But it is what I use to add an emphasis or note. At the top of the main page is the note `For Professor Brinton`; the `emphcol` element is what I use to make it red, selectively only for that small portion of text.*
 
 ## What did I learn?
-I learned a lot from this project. One of the things that stood out most to me was the Lowell Mill Girls and the fact that they only got paid *`often between $2 and $4 per week`*. The reason this stood out to me as much as it did is because it was only because of their gender and the fact that they were young. I don't want to spend too much time on the Lowell Mill Girls, but they were very interesting. I learned a lot more about <ins>_who they were, why they worked at the mills, what their life was like in the mills, and their contributions to labor activism, and literature._</ins> 
+I gained a deeper understanding of how industrialization shaped American society during the 19th century by researching New England's textile mills and factory systems. I learned that the rise of factories like those in Lowell, Massachusetts, marked a significant shift from agrarian lifestyles to industrialized urban centers. This transformation boosted economic growth and brought about profound social changes. Young women, often called the Lowell Mill Girls, left their rural homes to work in the mills, gaining independence and experiencing a new sense of community. However, this came at a cost, meaning long working hours, strict oversight, and often harsh conditions.
+I also discovered how the technological advancements of the time, such as the introduction of steam-powered machinery, significantly increased productivity and established New England as a leader in the textile industry. At the same time, the rapid pace of industrialization led to challenges, such as labor disputes, health concerns, and the need for social reforms. Overall, this research highlighted the complexity of industrial progress: how it drove economic development while simultaneously reshaping societal norms and raising important questions about labor rights and worker welfare.
+I learned a lot from this project. One of the things that stood out most to me was the Lowell Mill Girls and the fact that they only got paid *`often between $2 and $4 per week`*. This stood out to me as much as it did because it was only because of their gender and the fact that they were young. I don't want to spend too much time on the Lowell Mill Girls, but they were very interesting. I learned a lot more about <ins>_who they were, why they worked at the mills, what their life was like in the mills, and their contributions to labor activism and literature._</ins> 
+
 
 I learned about the early years of the textile industry, how it started, how it evolved, and more. 
 > The industry began with <ins>Samuel Slater</ins>, a British immigrant often called the "*Father of the American Industrial Revolution.*"
 
-I found that really interesting, the fact that just one man started the explosion of the textile industry in the Americas. Using his knowledge of British textile machinery to replicate them and bring them into the United States. 
+I found it really interesting that just one man started the explosion of the textile industry in the Americas, using his knowledge of British textile machinery to replicate it and bring it to the United States.
