@@ -22,7 +22,7 @@ I chose to make a website, one because I thought it'd be easier than writing a 1
 
 ## How did I make this?
 > [!WARNING]
-> I am about to get very nerdy.
+> Programmer Language Below :D
 
 To start off, I always like to make a layout, meaning I start to code the basic structure and leave placeholders where necessary.
 So, for example:
